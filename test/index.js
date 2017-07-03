@@ -28,7 +28,8 @@ describe('Query Building Tests', function() {
   require('./unit/schema/sqlite3')
   require('./unit/schema/oracle')
   require('./unit/schema/mssql')
-  require('./unit/schema/oracledb')
+  require('./unit/schema/oracledb'),
+  require('./unit/schema/db2')
 })
 
 describe('Integration Tests', function() {
